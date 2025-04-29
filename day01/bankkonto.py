@@ -9,6 +9,7 @@ class BankKonto:
     inhaber: str
     kontonummer: int
     kontostand: float
+    empfänger: []
     ## Konstruktor
     def __init__(self, inhaber, kontonummer, empfänger, kontostand=0):
         self.inhaber = inhaber
